@@ -9,7 +9,8 @@ Author  : Brown
 
 from random import randint
 
-money = 1000
+money = int(input("你想要多少钱？\n"))
+# money = 1000
 while money > 0:
     print('你的总资产为:', money)
     needs_go_on = False
